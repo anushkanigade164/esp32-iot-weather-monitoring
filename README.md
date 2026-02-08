@@ -1,8 +1,23 @@
 # esp32-iot-weather-monitoring
-ESP32 based IoT weather monitoring project. This system reads data from multiple sensors and sends updates remotely. It also supports offline data logging and alert messages.
-Main work done:
-Sensor interfacing
-Real-time data reading
-Remote alerts
-Data logging
-Testing and calibration
+# ESP32 IoT Weather Monitoring System
+
+Student-built IoT weather station using ESP32 and multiple sensors.
+The system measures wind speed, rainfall and direction, shows data on LCD,
+logs readings to SD card, and sends Telegram alerts for abnormal conditions.
+
+## Features
+- Wind and rain pulse sensing with interrupts
+- Direction measurement via analog input
+- LCD live display
+- SD card logging
+- Telegram alerts and periodic updates
+- Basic location tagging using IP lookup
+
+## Hardware Used
+- ESP32
+- Wind speed sensor
+- Tipping bucket rain gauge
+- Wind direction sensor
+- I2C LCD
+- SD card module
+
